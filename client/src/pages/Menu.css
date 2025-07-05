@@ -1,0 +1,17 @@
+.menu-page .btn-outline-dark.active {
+  background-color: #e67e22;
+  color: white;
+  border-color: #e67e22;
+}
+
+.menu-page .btn-outline-dark {
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.menu-page .btn-outline-dark:hover {
+  background-color: #e67e22;
+  color: white;
+}

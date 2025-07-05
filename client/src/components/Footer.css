@@ -1,0 +1,23 @@
+.footer {
+  background-color: #343a40;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #e67e22;
+}
+
+.footer .text-warning {
+  color: #e67e22 !important;
+}
+
+.footer .font-weight-bold {
+  font-weight: 700 !important;
+}

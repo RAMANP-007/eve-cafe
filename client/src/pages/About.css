@@ -1,0 +1,23 @@
+.about-page .our-story,
+.about-page .our-values {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-page .lead {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.team-member-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-page h4 {
+  font-weight: 600;
+  color: #333;
+}

@@ -1,0 +1,51 @@
+.menu-item-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.menu-item-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.menu-item-card .card-body {
+  background-color: #fff;
+}
+
+.menu-item-card .card-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.menu-item-card .price {
+  color: #e67e22;
+  font-size: 1.2rem;
+}
+
+.tags .badge {
+  font-size: 0.75rem;
+  padding: 0.4em 0.6em;
+}
+
+.tag-vegan {
+  background-color: #27ae60 !important;
+  color: white;
+}
+
+.tag-bestseller {
+  background-color: #e74c3c !important;
+  color: white;
+}
+
+.tag-spicy {
+    background-color: #f39c12 !important;
+    color: white;
+}
